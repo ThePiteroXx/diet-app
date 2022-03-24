@@ -13,7 +13,7 @@ const desktopSize = parseInt(theme.viewportSize.l.slice(0, -2));
 const MealInfo = ({ item }) => {
   const { data, isLoading } = useGetMealIngredientsQuery(item.id);
   const { width } = useWindowSize();
-  console.log(item);
+
   return (
     <>
       {isLoading ? (
