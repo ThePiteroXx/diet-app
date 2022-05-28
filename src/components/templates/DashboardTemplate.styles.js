@@ -44,6 +44,7 @@ export const BurgerButton = styled.button`
   height: 46px;
   border: none;
   background-color: transparent;
+  cursor: pointer;
   z-index: 999;
 
   .strips {
