@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^11.2.7",
     "axios": "^0.25.0",
     "chart.js": "^3.7.0",
     "lodash.debounce": "^4.0.8",
@@ -54,11 +52,10 @@
   "devDependencies": {
     "@cypress/react": "^5.12.3",
     "@cypress/webpack-dev-server": "^1.8.1",
-    "@testing-library/cypress": "^8.0.2",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.5.0",
-    "cypress": "^9.5.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
