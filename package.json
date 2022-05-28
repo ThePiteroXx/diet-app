@@ -22,10 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test:e2e": "cypress open --project ./src/e2e",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
@@ -50,8 +47,6 @@
     ]
   },
   "devDependencies": {
-    "@cypress/react": "^5.12.3",
-    "@cypress/webpack-dev-server": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.5.0",
