@@ -74,6 +74,10 @@ My node version - v14.17.3
     REACT_APP_SPOONCULAR2_TOKEN=your_config
     REACT_APP_SPOONCULAR3_TOKEN=your_config
    ```
+4. Open local server
+    ```sh
+   npm run start
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
